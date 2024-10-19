@@ -83,5 +83,55 @@ public class assigncookies {
             }
         }
     }
+    class Repeated_Substring_pattern_approach1{
+        class Solution {
+            public boolean repeatedSubstringPattern(String s) {
+                String check="";
+                int a=1;
+                check = check + s.substring(0, a);
+                while(a<s.length()){
+                    if (s.length() % check.length() != 0) {
+                        check= check + s.substring(a,a+1);
+                        a++;
+                    }
+                    else{
+                        String newcheck=check;
+                        while(newcheck.length()!=s.length()){
+                            newcheck+=check;
+                        }
+                        if(newcheck.equals(s))
+                            return true;
+                        else{
+                            check= check + s.substring(a,a+1);
+                            a++;
+
+                        }
+
+                    }
 
 
+
+                }
+                return false;
+            }
+        }
+    }
+    class repeated_substring_pattern_approach2{
+        public class Solution {
+            public boolean repeatedSubstringPattern(String s) {
+                int n = s.length();
+                for (int i = 1; i <= n / 2; i++) {
+                    if (n % i == 0) {
+                        String substring = s.substring(0, i);
+                        StringBuilder repeated = new StringBuilder();
+                        for (int j = 0; j < n / i; j++) {
+                            repeated.append(substring);
+                        }
+                        if (repeated.toString().equals(s))
+                            return true;
+                    }
+                }
+                return false;
+            }
+        }
+    }
