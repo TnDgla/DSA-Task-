@@ -149,3 +149,28 @@ class Excle_sheet_column_table{
         }
     }
 }
+class number_of_Substring_only1{
+    class Solution {
+        public int numSub(String s) {
+            int count = 0;
+            long total = 0;
+            int MOD = 1000000007;
+            int start = 0;
+            while (start < s.length()) {
+                if (s.charAt(start) == '0') {
+                    start++;
+                } else {
+                    count = 0;
+                    while (start < s.length() && s.charAt(start) == '1') {
+                        count++;
+                        start++;
+                    }
+                    total = (total + (long)count * (count + 1) / 2) % MOD;
+                }
+            }
+
+            return (int) total;
+        }
+    }
+
+}
