@@ -63,4 +63,25 @@ public class assigncookies {
         }
     }
 
+    class Ransom_Note{
+        class Solution {
+            public boolean canConstruct(String ransomNote, String magazine) {
+                ArrayList<Character> ar=new ArrayList<>();
+                for(int i=0 ; i<magazine.length(); i++){
+                    ar.add(magazine.charAt(i));
+                }
+                for(int i=0; i<ransomNote.length(); i++){
+                    if(ar.contains(ransomNote.charAt(i))){
+                        ar.remove(Character.valueOf(ransomNote.charAt(i)));
+                    }
+                    else
+                        return false;
+                }
+                return true;
+
+
+            }
+        }
+    }
+
 
