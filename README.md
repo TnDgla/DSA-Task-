@@ -139,6 +139,7 @@ Subarrays are contiguous parts of an array, and different categories of subarray
 |  |
 | ------- |
 | [0455-assign-cookies](https://github.com/Kush-Varshney/DSA-Task-/tree/master/0455-assign-cookies) |
+| [0890-lemonade-change](https://github.com/Kush-Varshney/DSA-Task-/tree/master/0890-lemonade-change) |
 | [2756-buy-two-chocolates](https://github.com/Kush-Varshney/DSA-Task-/tree/master/2756-buy-two-chocolates) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/Kush-Varshney/DSA-Task-/tree/master/3242-count-elements-with-maximum-frequency) |
 ## Two Pointers
@@ -149,6 +150,7 @@ Subarrays are contiguous parts of an array, and different categories of subarray
 |  |
 | ------- |
 | [0455-assign-cookies](https://github.com/Kush-Varshney/DSA-Task-/tree/master/0455-assign-cookies) |
+| [0890-lemonade-change](https://github.com/Kush-Varshney/DSA-Task-/tree/master/0890-lemonade-change) |
 | [2756-buy-two-chocolates](https://github.com/Kush-Varshney/DSA-Task-/tree/master/2756-buy-two-chocolates) |
 ## Sorting
 |  |
