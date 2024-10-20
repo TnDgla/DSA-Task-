@@ -1,0 +1,341 @@
+455. Assign Cookies
+
+class Solution {
+    public int findContentChildren(int[] g, int[] s) {
+        Arrays.sort(g);
+        Arrays.sort(s);
+        int i=g.length-1;
+        int j=s.length-1;
+        int cnt=0;
+        while(i>=0&&j>=0){
+            if(g[i]<=s[j]){
+                cnt++;
+                j--;
+            }
+            i--;
+        }
+        return cnt;
+    }
+}
+
+
+2706. Buy Two Chocolates
+
+class Solution {
+    public int buyChoco(int[] prices, int money) {
+        PriorityQueue<Integer> pq=new PriorityQueue<>();
+        for(int val:prices){
+            pq.add(val);
+        }
+        int k=money;
+        int i=2;
+        while(i-->=1){
+            int curr=pq.poll();
+            k-=curr;
+            if(k<0){
+                return money;
+            }
+        }
+        return k;
+    }
+}
+
+
+3005. Count Elements With Maximum Frequency
+
+class Solution {
+    public int maxFrequencyElements(int[] nums) {
+        HashMap<Integer,Integer>map=new HashMap<>();
+        for(int i:nums){
+            map.put(i,map.getOrDefault(i,0)+1);
+        }
+        int max=Integer.MIN_VALUE;
+        for(int i:map.values()){
+            max=Math.max(max,i);
+        }
+        int ans=0;
+        for(int i:map.values()){
+            if(i==max){
+                ans+=max;
+            }
+        }
+        return ans;
+    }
+}
+
+
+2966. Divide Array Into Arrays With Max Difference
+
+class Solution {
+    public int[][] divideArray(int[] nums, int k) {
+         int max = Arrays.stream(nums).max().getAsInt();
+        int min = Arrays.stream(nums).min().getAsInt();
+        
+        int[] count = new int[max - min + 1];
+
+        for (int num : nums) {
+            count[num - min]++;
+        }
+        int index = 0;
+        for (int i = 0; i < count.length; i++) {
+            while (count[i] > 0) {
+                nums[index++] = i + min;
+                count[i]--;
+            }
+        }
+        int[][]ans=new int[nums.length/3][3];
+        for(int i=0;i<nums.length;i=i+3){
+            if(i%3==0){
+                if(nums[i+1]-nums[i]<=k&&nums[i+2]-nums[i]<=k&&nums[i+2]-nums[i+1]<=k){
+                    continue;
+                }
+                else{
+                    return new int[][]{};
+                }
+            }
+        }       
+        int t=-1; 
+        for(int i=0;i<nums.length;i++){
+            if(i%3==0){
+                t++;
+            }
+            ans[t][i%3]=nums[i];
+        }
+    return ans;
+    }
+}
+
+
+1002. Find Common Characters
+
+class Solution {
+    public List<String> commonChars(String[] words) {
+        HashMap<Character,Integer> map=new HashMap<>();
+        for(int i=0;i<words[0].length();i++){
+            map.put(words[0].charAt(i),map.getOrDefault(words[0].charAt(i),0)+1);
+        }
+        for(int i=1;i<words.length;i++){
+            String str=words[i];
+            HashMap<Character,Integer>temp=new HashMap<>();
+            for(int j=0;j<str.length();j++){
+                temp.put(str.charAt(j),temp.getOrDefault(str.charAt(j),0)+1);
+            }
+            for(char ch:map.keySet()){
+                if(temp.containsKey(ch)){
+                    map.put(ch,Math.min(map.get(ch),temp.get(ch)));
+                }
+                else{
+                    map.put(ch,0);
+                }
+            }
+        }
+        ArrayList<String> list=new ArrayList<>();
+        for(char ch:map.keySet()){
+            int cnt=map.get(ch);
+            for(int i=0;i<cnt;i++){
+                String str="";
+                str+=ch;
+                list.add(str);
+            }
+        }
+        return list;
+    }
+}
+
+
+
+860. Lemonade Change
+class Solution {
+    public boolean lemonadeChange(int[] bills) {
+        int cnt5=0 ,cnt10=0,cnt20=0;
+        for(int val:bills){
+            if(val==5)
+            cnt5+=1;
+            if(val==10){
+                cnt10+=1;
+                cnt5-=1;
+            }
+            if(val==20){
+                if(cnt10>0&&cnt5>0){
+                cnt20+=1;
+                cnt5-=1;
+                cnt10-=1;
+                }
+                else if(cnt5>=3){
+                    cnt5-=3;
+                    cnt20+=1;
+                }
+                else{
+                    return false;
+                }
+            }
+
+        }
+        if(cnt5<0||cnt10<0||cnt20<0){
+            return false;
+        }
+        return true;
+
+    }
+}
+
+
+2540. Minimum Common Value
+
+class Solution {
+    public int getCommon(int[] nums1, int[] nums2) {
+        int st1=0,st2=0;
+
+        while(st1<nums1.length&&st2<nums2.length){
+            if(nums1[st1]<nums2[st2]){
+                st1++;
+            }
+            else if(nums1[st1]>nums2[st2]){
+                st2++;
+            }
+            else{
+                return nums1[st1];
+            }
+        }
+        return -1;
+    }
+}
+
+15. 3Sum
+
+class Solution {
+    public List<List<Integer>> threeSum(int[] nums) {
+        Arrays.sort(nums);
+        HashSet<ArrayList<Integer>> set=new HashSet<>();
+        for(int i=0;i<nums.length-2;i++){
+            int k=nums[i];
+            int lf=i+1;
+            int rh=nums.length-1;
+            while(lf<rh){
+                int sum=k+nums[lf]+nums[rh];
+                if(sum==0){
+                    ArrayList<Integer> list=new ArrayList<>();
+                    list.add(k);
+                    list.add(nums[lf]);
+                    list.add(nums[rh]);
+                    set.add(list);
+                    lf++;
+                    rh--;
+                }
+                else if(sum<0){
+                    lf++;
+                }
+                else{
+                    rh--;
+                }
+            }
+        }
+        return new ArrayList<>(set);
+    }
+}
+
+16. 3Sum Closest
+
+class Solution {
+    public int threeSumClosest(int[] nums, int target) {
+        Arrays.sort(nums);
+        int csum = nums[0] + nums[1] + nums[2];
+        for(int i=0;i<nums.length-2;i++){
+            int j=i+1;
+            int k=nums.length-1;
+            while(j<k){
+                int sum=nums[i]+nums[j]+nums[k];
+                if(Math.abs(target-sum)<Math.abs(target-csum)){
+                    csum=sum;
+                }
+                else if(sum<target){
+                    j++;
+                }
+                else{
+                    k--;
+                }
+            }
+        }
+        return csum;
+    }
+}
+
+845. Longest Mountain in Array
+
+class Solution {
+    public int longestMountain(int[] arr) {
+        int ans=0;
+        if(arr.length<3){
+            return ans;
+        }
+        for(int i=1;i<arr.length-1;i++){
+            if(arr[i]>arr[i-1]&&arr[i]>arr[i+1]){
+                int lf=i,rh=i;
+                while(lf>0&&arr[lf]>arr[lf-1]){
+                    lf--;
+                }
+                while(rh<arr.length-1&&arr[rh]>arr[rh+1]){
+                    rh++;
+                }
+                ans=Math.max(rh-lf+1,ans);
+            }
+        }
+        return ans;
+    }
+}
+
+1248. Count Number of Nice Subarrays
+
+class Solution {
+    public static int fun(int[] nums, int goal){
+        int r=0,l=0,c=0,sum=0;
+        if(goal<0){
+            return 0;
+        }
+        while(r<nums.length){
+            sum=sum+nums[r];
+            while(sum>goal){
+                sum=sum-nums[l];
+                l++;
+            }
+            c=c+(r-l+1);
+            r++;
+        }
+        return c;
+    }
+    public int numberOfSubarrays(int[] nums, int k) {
+        for(int i=0;i<nums.length;i++){
+            if(nums[i]%2==0){
+                nums[i]=0;
+            }
+            else{
+                nums[i]=1;
+            }
+        }
+        return (fun(nums,k)-fun(nums, k-1));
+    }
+}
+
+11. Container With Most Water
+
+class Solution {
+    public int maxArea(int[] arr) {
+        int st=0,end=arr.length-1;
+        int area=Integer.MIN_VALUE;
+        int len=arr.length-1;
+        while(st<=end){
+            area=Math.max(area,Math.min(arr[st],arr[end])*len);
+            if(arr[st]<arr[end]){
+                st++;
+            }
+            else if(arr[st]>arr[end]){
+                end--;
+            }
+            else{
+                st++;
+            }
+            len--;
+        }
+        return area;
+    }
+}
