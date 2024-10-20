@@ -140,6 +140,7 @@ Subarrays are contiguous parts of an array, and different categories of subarray
 | ------- |
 | [0455-assign-cookies](https://github.com/Kush-Varshney/DSA-Task-/tree/master/0455-assign-cookies) |
 | [0890-lemonade-change](https://github.com/Kush-Varshney/DSA-Task-/tree/master/0890-lemonade-change) |
+| [1044-find-common-characters](https://github.com/Kush-Varshney/DSA-Task-/tree/master/1044-find-common-characters) |
 | [2634-minimum-common-value](https://github.com/Kush-Varshney/DSA-Task-/tree/master/2634-minimum-common-value) |
 | [2756-buy-two-chocolates](https://github.com/Kush-Varshney/DSA-Task-/tree/master/2756-buy-two-chocolates) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/Kush-Varshney/DSA-Task-/tree/master/3242-count-elements-with-maximum-frequency) |
@@ -162,6 +163,7 @@ Subarrays are contiguous parts of an array, and different categories of subarray
 ## Hash Table
 |  |
 | ------- |
+| [1044-find-common-characters](https://github.com/Kush-Varshney/DSA-Task-/tree/master/1044-find-common-characters) |
 | [2634-minimum-common-value](https://github.com/Kush-Varshney/DSA-Task-/tree/master/2634-minimum-common-value) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/Kush-Varshney/DSA-Task-/tree/master/3242-count-elements-with-maximum-frequency) |
 ## Counting
@@ -172,4 +174,8 @@ Subarrays are contiguous parts of an array, and different categories of subarray
 |  |
 | ------- |
 | [2634-minimum-common-value](https://github.com/Kush-Varshney/DSA-Task-/tree/master/2634-minimum-common-value) |
+## String
+|  |
+| ------- |
+| [1044-find-common-characters](https://github.com/Kush-Varshney/DSA-Task-/tree/master/1044-find-common-characters) |
 <!---LeetCode Topics End-->
