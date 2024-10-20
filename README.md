@@ -132,3 +132,77 @@ Subarrays are contiguous parts of an array, and different categories of subarray
    Output: [1, 1, 0]
 
 ---
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0015-3sum](https://github.com/sarvesh1-4/DSA-Task-SarveshMishra-2215001599/tree/master/0015-3sum) |
+| [0016-3sum-closest](https://github.com/sarvesh1-4/DSA-Task-SarveshMishra-2215001599/tree/master/0016-3sum-closest) |
+| [0455-assign-cookies](https://github.com/sarvesh1-4/DSA-Task-SarveshMishra-2215001599/tree/master/0455-assign-cookies) |
+| [0875-longest-mountain-in-array](https://github.com/sarvesh1-4/DSA-Task-SarveshMishra-2215001599/tree/master/0875-longest-mountain-in-array) |
+| [0890-lemonade-change](https://github.com/sarvesh1-4/DSA-Task-SarveshMishra-2215001599/tree/master/0890-lemonade-change) |
+| [1044-find-common-characters](https://github.com/sarvesh1-4/DSA-Task-SarveshMishra-2215001599/tree/master/1044-find-common-characters) |
+| [1813-maximum-erasure-value](https://github.com/sarvesh1-4/DSA-Task-SarveshMishra-2215001599/tree/master/1813-maximum-erasure-value) |
+| [2211-k-radius-subarray-averages](https://github.com/sarvesh1-4/DSA-Task-SarveshMishra-2215001599/tree/master/2211-k-radius-subarray-averages) |
+| [2634-minimum-common-value](https://github.com/sarvesh1-4/DSA-Task-SarveshMishra-2215001599/tree/master/2634-minimum-common-value) |
+| [2756-buy-two-chocolates](https://github.com/sarvesh1-4/DSA-Task-SarveshMishra-2215001599/tree/master/2756-buy-two-chocolates) |
+| [3241-divide-array-into-arrays-with-max-difference](https://github.com/sarvesh1-4/DSA-Task-SarveshMishra-2215001599/tree/master/3241-divide-array-into-arrays-with-max-difference) |
+| [3242-count-elements-with-maximum-frequency](https://github.com/sarvesh1-4/DSA-Task-SarveshMishra-2215001599/tree/master/3242-count-elements-with-maximum-frequency) |
+## Two Pointers
+|  |
+| ------- |
+| [0015-3sum](https://github.com/sarvesh1-4/DSA-Task-SarveshMishra-2215001599/tree/master/0015-3sum) |
+| [0016-3sum-closest](https://github.com/sarvesh1-4/DSA-Task-SarveshMishra-2215001599/tree/master/0016-3sum-closest) |
+| [0455-assign-cookies](https://github.com/sarvesh1-4/DSA-Task-SarveshMishra-2215001599/tree/master/0455-assign-cookies) |
+| [0875-longest-mountain-in-array](https://github.com/sarvesh1-4/DSA-Task-SarveshMishra-2215001599/tree/master/0875-longest-mountain-in-array) |
+| [2634-minimum-common-value](https://github.com/sarvesh1-4/DSA-Task-SarveshMishra-2215001599/tree/master/2634-minimum-common-value) |
+## Greedy
+|  |
+| ------- |
+| [0455-assign-cookies](https://github.com/sarvesh1-4/DSA-Task-SarveshMishra-2215001599/tree/master/0455-assign-cookies) |
+| [0890-lemonade-change](https://github.com/sarvesh1-4/DSA-Task-SarveshMishra-2215001599/tree/master/0890-lemonade-change) |
+| [2756-buy-two-chocolates](https://github.com/sarvesh1-4/DSA-Task-SarveshMishra-2215001599/tree/master/2756-buy-two-chocolates) |
+| [3241-divide-array-into-arrays-with-max-difference](https://github.com/sarvesh1-4/DSA-Task-SarveshMishra-2215001599/tree/master/3241-divide-array-into-arrays-with-max-difference) |
+## Sorting
+|  |
+| ------- |
+| [0015-3sum](https://github.com/sarvesh1-4/DSA-Task-SarveshMishra-2215001599/tree/master/0015-3sum) |
+| [0016-3sum-closest](https://github.com/sarvesh1-4/DSA-Task-SarveshMishra-2215001599/tree/master/0016-3sum-closest) |
+| [0455-assign-cookies](https://github.com/sarvesh1-4/DSA-Task-SarveshMishra-2215001599/tree/master/0455-assign-cookies) |
+| [2756-buy-two-chocolates](https://github.com/sarvesh1-4/DSA-Task-SarveshMishra-2215001599/tree/master/2756-buy-two-chocolates) |
+| [3241-divide-array-into-arrays-with-max-difference](https://github.com/sarvesh1-4/DSA-Task-SarveshMishra-2215001599/tree/master/3241-divide-array-into-arrays-with-max-difference) |
+## Hash Table
+|  |
+| ------- |
+| [1044-find-common-characters](https://github.com/sarvesh1-4/DSA-Task-SarveshMishra-2215001599/tree/master/1044-find-common-characters) |
+| [1813-maximum-erasure-value](https://github.com/sarvesh1-4/DSA-Task-SarveshMishra-2215001599/tree/master/1813-maximum-erasure-value) |
+| [2634-minimum-common-value](https://github.com/sarvesh1-4/DSA-Task-SarveshMishra-2215001599/tree/master/2634-minimum-common-value) |
+| [3242-count-elements-with-maximum-frequency](https://github.com/sarvesh1-4/DSA-Task-SarveshMishra-2215001599/tree/master/3242-count-elements-with-maximum-frequency) |
+## Counting
+|  |
+| ------- |
+| [3242-count-elements-with-maximum-frequency](https://github.com/sarvesh1-4/DSA-Task-SarveshMishra-2215001599/tree/master/3242-count-elements-with-maximum-frequency) |
+## String
+|  |
+| ------- |
+| [1044-find-common-characters](https://github.com/sarvesh1-4/DSA-Task-SarveshMishra-2215001599/tree/master/1044-find-common-characters) |
+## Binary Search
+|  |
+| ------- |
+| [2634-minimum-common-value](https://github.com/sarvesh1-4/DSA-Task-SarveshMishra-2215001599/tree/master/2634-minimum-common-value) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0875-longest-mountain-in-array](https://github.com/sarvesh1-4/DSA-Task-SarveshMishra-2215001599/tree/master/0875-longest-mountain-in-array) |
+## Enumeration
+|  |
+| ------- |
+| [0875-longest-mountain-in-array](https://github.com/sarvesh1-4/DSA-Task-SarveshMishra-2215001599/tree/master/0875-longest-mountain-in-array) |
+## Sliding Window
+|  |
+| ------- |
+| [1813-maximum-erasure-value](https://github.com/sarvesh1-4/DSA-Task-SarveshMishra-2215001599/tree/master/1813-maximum-erasure-value) |
+| [2211-k-radius-subarray-averages](https://github.com/sarvesh1-4/DSA-Task-SarveshMishra-2215001599/tree/master/2211-k-radius-subarray-averages) |
+<!---LeetCode Topics End-->
