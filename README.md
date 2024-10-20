@@ -141,6 +141,7 @@ Subarrays are contiguous parts of an array, and different categories of subarray
 | [0015-3sum](https://github.com/skyy4/DSA-Task/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/skyy4/DSA-Task/tree/master/0016-3sum-closest) |
 | [0455-assign-cookies](https://github.com/skyy4/DSA-Task/tree/master/0455-assign-cookies) |
+| [0875-longest-mountain-in-array](https://github.com/skyy4/DSA-Task/tree/master/0875-longest-mountain-in-array) |
 | [0890-lemonade-change](https://github.com/skyy4/DSA-Task/tree/master/0890-lemonade-change) |
 | [1044-find-common-characters](https://github.com/skyy4/DSA-Task/tree/master/1044-find-common-characters) |
 | [2634-minimum-common-value](https://github.com/skyy4/DSA-Task/tree/master/2634-minimum-common-value) |
@@ -153,6 +154,7 @@ Subarrays are contiguous parts of an array, and different categories of subarray
 | [0015-3sum](https://github.com/skyy4/DSA-Task/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/skyy4/DSA-Task/tree/master/0016-3sum-closest) |
 | [0455-assign-cookies](https://github.com/skyy4/DSA-Task/tree/master/0455-assign-cookies) |
+| [0875-longest-mountain-in-array](https://github.com/skyy4/DSA-Task/tree/master/0875-longest-mountain-in-array) |
 | [2634-minimum-common-value](https://github.com/skyy4/DSA-Task/tree/master/2634-minimum-common-value) |
 ## Greedy
 |  |
@@ -187,4 +189,12 @@ Subarrays are contiguous parts of an array, and different categories of subarray
 |  |
 | ------- |
 | [2634-minimum-common-value](https://github.com/skyy4/DSA-Task/tree/master/2634-minimum-common-value) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0875-longest-mountain-in-array](https://github.com/skyy4/DSA-Task/tree/master/0875-longest-mountain-in-array) |
+## Enumeration
+|  |
+| ------- |
+| [0875-longest-mountain-in-array](https://github.com/skyy4/DSA-Task/tree/master/0875-longest-mountain-in-array) |
 <!---LeetCode Topics End-->
