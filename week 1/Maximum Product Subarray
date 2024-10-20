@@ -1,0 +1,21 @@
+class Solution {
+    public int maxProduct(int[] nums) {
+        long m =Integer.MIN_VALUE; 
+        long suffix = 1 , prefix = 1;
+        int i=0; 
+        while (i<nums.length){
+            if(suffix == 0) suffix = 1;
+            if(prefix == 0) prefix = 1;
+
+            suffix = suffix % Integer.MAX_VALUE;
+            prefix = prefix % Integer.MAX_VALUE;
+
+            suffix = suffix * nums[i];
+            prefix = prefix * nums[nums.length - i - 1];
+
+            m = Math.max(m, Math.max(suffix, prefix));
+            i++;
+        }
+        return (int)m;
+    }
+}
