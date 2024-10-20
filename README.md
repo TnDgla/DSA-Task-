@@ -143,6 +143,7 @@ Subarrays are contiguous parts of an array, and different categories of subarray
 | [0890-lemonade-change](https://github.com/avnishsharma1209/DSA-Task/tree/master/0890-lemonade-change) |
 | [0941-sort-array-by-parity](https://github.com/avnishsharma1209/DSA-Task/tree/master/0941-sort-array-by-parity) |
 | [2756-buy-two-chocolates](https://github.com/avnishsharma1209/DSA-Task/tree/master/2756-buy-two-chocolates) |
+| [3242-count-elements-with-maximum-frequency](https://github.com/avnishsharma1209/DSA-Task/tree/master/3242-count-elements-with-maximum-frequency) |
 ## Greedy
 |  |
 | ------- |
@@ -181,10 +182,12 @@ Subarrays are contiguous parts of an array, and different categories of subarray
 |  |
 | ------- |
 | [0383-ransom-note](https://github.com/avnishsharma1209/DSA-Task/tree/master/0383-ransom-note) |
+| [3242-count-elements-with-maximum-frequency](https://github.com/avnishsharma1209/DSA-Task/tree/master/3242-count-elements-with-maximum-frequency) |
 ## Counting
 |  |
 | ------- |
 | [0383-ransom-note](https://github.com/avnishsharma1209/DSA-Task/tree/master/0383-ransom-note) |
+| [3242-count-elements-with-maximum-frequency](https://github.com/avnishsharma1209/DSA-Task/tree/master/3242-count-elements-with-maximum-frequency) |
 ## String Matching
 |  |
 | ------- |
