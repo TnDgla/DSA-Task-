@@ -1,0 +1,7 @@
+class Solution {
+    public int buyChoco(int[] prices, int money) {
+        Arrays.sort(prices);
+        int cal = prices[0] + prices[1];
+        return cal > money ? money : money - cal;
+    }
+}
