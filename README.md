@@ -163,5 +163,10 @@ Subarrays are contiguous parts of an array, and different categories of subarray
 ## String
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/avnishsharma1209/DSA-Task/tree/master/0014-longest-common-prefix) |
 | [3195-separate-black-and-white-balls](https://github.com/avnishsharma1209/DSA-Task/tree/master/3195-separate-black-and-white-balls) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/avnishsharma1209/DSA-Task/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
