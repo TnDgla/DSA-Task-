@@ -141,6 +141,7 @@ Subarrays are contiguous parts of an array, and different categories of subarray
 | [0455-assign-cookies](https://github.com/Georgiandurgesh/DSA-Task-Durgesh-Bahadur-2215000645-/tree/master/0455-assign-cookies) |
 | [0875-longest-mountain-in-array](https://github.com/Georgiandurgesh/DSA-Task-Durgesh-Bahadur-2215000645-/tree/master/0875-longest-mountain-in-array) |
 | [2756-buy-two-chocolates](https://github.com/Georgiandurgesh/DSA-Task-Durgesh-Bahadur-2215000645-/tree/master/2756-buy-two-chocolates) |
+| [3242-count-elements-with-maximum-frequency](https://github.com/Georgiandurgesh/DSA-Task-Durgesh-Bahadur-2215000645-/tree/master/3242-count-elements-with-maximum-frequency) |
 ## Two Pointers
 |  |
 | ------- |
@@ -164,4 +165,12 @@ Subarrays are contiguous parts of an array, and different categories of subarray
 | ------- |
 | [0455-assign-cookies](https://github.com/Georgiandurgesh/DSA-Task-Durgesh-Bahadur-2215000645-/tree/master/0455-assign-cookies) |
 | [2756-buy-two-chocolates](https://github.com/Georgiandurgesh/DSA-Task-Durgesh-Bahadur-2215000645-/tree/master/2756-buy-two-chocolates) |
+## Hash Table
+|  |
+| ------- |
+| [3242-count-elements-with-maximum-frequency](https://github.com/Georgiandurgesh/DSA-Task-Durgesh-Bahadur-2215000645-/tree/master/3242-count-elements-with-maximum-frequency) |
+## Counting
+|  |
+| ------- |
+| [3242-count-elements-with-maximum-frequency](https://github.com/Georgiandurgesh/DSA-Task-Durgesh-Bahadur-2215000645-/tree/master/3242-count-elements-with-maximum-frequency) |
 <!---LeetCode Topics End-->
