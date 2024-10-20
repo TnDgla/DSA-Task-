@@ -16,13 +16,11 @@ public class AssignCookies_455 {
             j++;
         }
         return i;
-
     }
 
     public static void main(String[] args) {
-        int[] g = { 1, 3, 2,5 };
-        int s[] = { 2, 3,4 };
-        System.out.println(findContentChildren(g, s));
+        int[] g = { 1, 2, 5, 8};
+        int[] s = { 3, 5, 7 };
+        System.out.println(findContentChildren(g,s));
     }
-
 }
