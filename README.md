@@ -138,6 +138,7 @@ Subarrays are contiguous parts of an array, and different categories of subarray
 ## Array
 |  |
 | ------- |
+| [0941-sort-array-by-parity](https://github.com/avnishsharma1209/DSA-Task/tree/master/0941-sort-array-by-parity) |
 | [2756-buy-two-chocolates](https://github.com/avnishsharma1209/DSA-Task/tree/master/2756-buy-two-chocolates) |
 ## Greedy
 |  |
@@ -146,5 +147,10 @@ Subarrays are contiguous parts of an array, and different categories of subarray
 ## Sorting
 |  |
 | ------- |
+| [0941-sort-array-by-parity](https://github.com/avnishsharma1209/DSA-Task/tree/master/0941-sort-array-by-parity) |
 | [2756-buy-two-chocolates](https://github.com/avnishsharma1209/DSA-Task/tree/master/2756-buy-two-chocolates) |
+## Two Pointers
+|  |
+| ------- |
+| [0941-sort-array-by-parity](https://github.com/avnishsharma1209/DSA-Task/tree/master/0941-sort-array-by-parity) |
 <!---LeetCode Topics End-->
