@@ -1,13 +1,20 @@
 class Solution {
-    public boolean check(int[] arr) {
-        int drop = 0;
-        for(int i = 1; i < arr.length; i++){
-            if(arr[i - 1] > arr[i]){
-                drop++;
+    public static int count(int[] nums, int ele){
+        int c=0;
+        for(int i=0;i<nums.length;i++){
+            if(nums[i]==ele)
+            c++;
+        }
+        return c;
+    }
+    public int majorityElement(int[] nums) {
+        int n=nums.length;
+        int i=0;
+        for(i=0;i<nums.length;i++){
+            if (count(nums,nums[i])>(n/2)){
+                break;
             }
         }
-
-        if(arr[0] < arr[arr.length - 1]) drop++;
-        return drop <= 1;
+        return nums[i];
     }
 }
