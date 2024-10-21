@@ -1,0 +1,13 @@
+class Solution {
+    public int titleToNumber(String columnTitle) {
+        int l = columnTitle.length()-1;
+        int ans = 0;
+        int al = 0;
+        for(int i = 0;i<columnTitle.length();i++){
+            al = columnTitle.charAt(i)-'@';
+            ans = ans*26;
+            ans+=al;
+        }
+        return ans;
+    }
+}
