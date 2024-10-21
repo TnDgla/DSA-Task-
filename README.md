@@ -184,6 +184,7 @@ Subarrays are contiguous parts of an array, and different categories of subarray
 ## String
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/suyashtripathi333/DSA-Task/tree/master/0020-valid-parentheses) |
 | [1044-find-common-characters](https://github.com/suyashtripathi333/DSA-Task/tree/master/1044-find-common-characters) |
 ## Binary Search
 |  |
@@ -201,4 +202,8 @@ Subarrays are contiguous parts of an array, and different categories of subarray
 |  |
 | ------- |
 | [1813-maximum-erasure-value](https://github.com/suyashtripathi333/DSA-Task/tree/master/1813-maximum-erasure-value) |
+## Stack
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/suyashtripathi333/DSA-Task/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
