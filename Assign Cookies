@@ -1,0 +1,17 @@
+class Solution {
+    public int findContentChildren(int[] g, int[] s) {
+        int c=0;
+        Arrays.sort(g);
+        Arrays.sort(s);
+        int n1 = s.length-1;
+        int n2 = g.length-1;
+        while(n1>=0 && n2>=0){
+            if(g[n2]<=s[n1]){
+                c++;
+                n1--;
+            }
+            n2--;
+        }
+        return c;
+    }
+}

@@ -1,0 +1,21 @@
+class Solution {
+    public int maxFrequencyElements(int[] nums) {
+        int max = 0;
+        for(int i : nums){
+            max = Math.max(max, i);
+        }
+        int cou[] = new int[max+1];
+        for(int i : nums){
+            cou[i]++;
+        }
+        int m = 0;
+        for(int i : cou){
+            m = Math.max(m, i);
+        }
+        int sum = 0;
+        for(int i : cou){
+            if(i == m) sum += i;
+        }
+        return sum;
+    }
+}
