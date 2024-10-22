@@ -1,0 +1,15 @@
+class Solution {
+    public int removeDuplicates(int[] nums) {
+        Map<Integer,Integer> mp=new TreeMap<>();
+        for(int i=0;i<nums.length;i++){
+            mp.put(nums[i],mp.getOrDefault(nums[i],0)+1);
+        }
+        int i=0;
+        int count=0;
+        for(Integer key:mp.keySet()){
+            nums[i++]=key;
+        }
+        return mp.size();
+        
+    }
+}
