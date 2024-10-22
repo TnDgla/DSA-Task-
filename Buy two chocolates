@@ -1,0 +1,23 @@
+class Solution {
+    public int buyChoco(int[] price, int money) {
+        int c=price[0];
+        int idx=0;
+        for(int i=0;i<price.length;i++){
+            if(c>price[i]){
+                c=price[i];
+                idx=i;
+            }
+        }
+        price[idx]=Integer.MAX_VALUE;
+        int v=price[0];
+        int id=0;
+        for(int i=0;i<price.length;i++){
+            if(v>price[i]){
+                v=price[i];
+                id=i;
+            }
+        }
+        if(c+v>money) return money;
+        else return money-(c+v);
+    }
+}
