@@ -1,0 +1,13 @@
+public class Missing_Number {
+    public static void main(String[] args) {
+        int[] nums = {3,0,1};
+        int n=nums.length;
+        long Sum=(n*(n+1))/2;
+        long actualSum=0;
+        for(int element:nums){
+            actualSum+=element;
+        }
+        int s = (int)(Sum-actualSum);
+        System.out.println(s);
+    }
+}
