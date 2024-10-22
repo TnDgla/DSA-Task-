@@ -1,0 +1,33 @@
+class Solution {
+    public boolean lemonadeChange(int[] bills) {
+        int countfive = 0;
+        int countten = 0;
+        for(int i : bills){
+            if(i == 5){
+                countfive++;
+            }
+            else if(i == 10){
+                if(countfive > 0){
+                    countfive--;
+                    countten++;
+                }
+                else{
+                    return false;
+                }
+            }
+            else{
+                if(countfive > 0 && countten > 0){
+                    countfive--;
+                    countten--;
+                }
+                else if(countfive > 2){
+                    countfive -= 3;
+                }
+                else{
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+}
