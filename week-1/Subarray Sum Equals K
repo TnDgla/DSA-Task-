@@ -1,0 +1,21 @@
+
+class Solution {
+    public int subarraySum(int[] nums, int k) {
+        Map<Integer,Integer> mp=new HashMap<>();
+        int s=0,c=0;
+        for(int i=0;i<nums.length;i++)
+        {
+            s=s+nums[i];
+            if(s==k)
+            c++;
+            if(mp.containsKey(s-k))
+            c+=mp.get(s-k);
+            if(mp.containsKey(s))
+            mp.put(s,mp.get(s)+1);
+            else
+            mp.put(s,1);
+
+        } 
+        return c;
+    }
+}
