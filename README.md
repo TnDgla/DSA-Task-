@@ -142,6 +142,7 @@ Subarrays are contiguous parts of an array, and different categories of subarray
 | [0015-3sum](https://github.com/avnishsharma1209/DSA-Task/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/avnishsharma1209/DSA-Task/tree/master/0016-3sum-closest) |
 | [0455-assign-cookies](https://github.com/avnishsharma1209/DSA-Task/tree/master/0455-assign-cookies) |
+| [0792-binary-search](https://github.com/avnishsharma1209/DSA-Task/tree/master/0792-binary-search) |
 | [0875-longest-mountain-in-array](https://github.com/avnishsharma1209/DSA-Task/tree/master/0875-longest-mountain-in-array) |
 | [0890-lemonade-change](https://github.com/avnishsharma1209/DSA-Task/tree/master/0890-lemonade-change) |
 | [0941-sort-array-by-parity](https://github.com/avnishsharma1209/DSA-Task/tree/master/0941-sort-array-by-parity) |
@@ -227,4 +228,8 @@ Subarrays are contiguous parts of an array, and different categories of subarray
 | ------- |
 | [1813-maximum-erasure-value](https://github.com/avnishsharma1209/DSA-Task/tree/master/1813-maximum-erasure-value) |
 | [2211-k-radius-subarray-averages](https://github.com/avnishsharma1209/DSA-Task/tree/master/2211-k-radius-subarray-averages) |
+## Binary Search
+|  |
+| ------- |
+| [0792-binary-search](https://github.com/avnishsharma1209/DSA-Task/tree/master/0792-binary-search) |
 <!---LeetCode Topics End-->
