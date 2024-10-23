@@ -146,6 +146,7 @@ Subarrays are contiguous parts of an array, and different categories of subarray
 | [0875-longest-mountain-in-array](https://github.com/suyashtripathi333/DSA-Task/tree/master/0875-longest-mountain-in-array) |
 | [1044-find-common-characters](https://github.com/suyashtripathi333/DSA-Task/tree/master/1044-find-common-characters) |
 | [1813-maximum-erasure-value](https://github.com/suyashtripathi333/DSA-Task/tree/master/1813-maximum-erasure-value) |
+| [2000-minimum-speed-to-arrive-on-time](https://github.com/suyashtripathi333/DSA-Task/tree/master/2000-minimum-speed-to-arrive-on-time) |
 | [2634-minimum-common-value](https://github.com/suyashtripathi333/DSA-Task/tree/master/2634-minimum-common-value) |
 | [2756-buy-two-chocolates](https://github.com/suyashtripathi333/DSA-Task/tree/master/2756-buy-two-chocolates) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/suyashtripathi333/DSA-Task/tree/master/3241-divide-array-into-arrays-with-max-difference) |
@@ -193,6 +194,7 @@ Subarrays are contiguous parts of an array, and different categories of subarray
 | ------- |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/suyashtripathi333/DSA-Task/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/suyashtripathi333/DSA-Task/tree/master/0745-find-smallest-letter-greater-than-target) |
+| [2000-minimum-speed-to-arrive-on-time](https://github.com/suyashtripathi333/DSA-Task/tree/master/2000-minimum-speed-to-arrive-on-time) |
 | [2634-minimum-common-value](https://github.com/suyashtripathi333/DSA-Task/tree/master/2634-minimum-common-value) |
 ## Dynamic Programming
 |  |
