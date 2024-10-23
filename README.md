@@ -144,6 +144,7 @@ Subarrays are contiguous parts of an array, and different categories of subarray
 | [0455-assign-cookies](https://github.com/avnishsharma1209/DSA-Task/tree/master/0455-assign-cookies) |
 | [0792-binary-search](https://github.com/avnishsharma1209/DSA-Task/tree/master/0792-binary-search) |
 | [0875-longest-mountain-in-array](https://github.com/avnishsharma1209/DSA-Task/tree/master/0875-longest-mountain-in-array) |
+| [0882-peak-index-in-a-mountain-array](https://github.com/avnishsharma1209/DSA-Task/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0890-lemonade-change](https://github.com/avnishsharma1209/DSA-Task/tree/master/0890-lemonade-change) |
 | [0941-sort-array-by-parity](https://github.com/avnishsharma1209/DSA-Task/tree/master/0941-sort-array-by-parity) |
 | [1044-find-common-characters](https://github.com/avnishsharma1209/DSA-Task/tree/master/1044-find-common-characters) |
@@ -232,4 +233,5 @@ Subarrays are contiguous parts of an array, and different categories of subarray
 |  |
 | ------- |
 | [0792-binary-search](https://github.com/avnishsharma1209/DSA-Task/tree/master/0792-binary-search) |
+| [0882-peak-index-in-a-mountain-array](https://github.com/avnishsharma1209/DSA-Task/tree/master/0882-peak-index-in-a-mountain-array) |
 <!---LeetCode Topics End-->
