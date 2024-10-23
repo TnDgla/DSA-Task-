@@ -1,0 +1,31 @@
+class Solution {
+    public int maxFrequencyElements(int[] nums) {
+        HashMap<Integer, Integer> map = new HashMap<>();
+        int max = 0, sum = 0;
+        for(Integer i : nums){
+            map.put(i, map.getOrDefault(i, 0) + 1);
+        }
+        Set<Integer> keys = map.keySet();
+        for(Integer i : keys){
+            max = Math.max(max, map.get(i));
+        }
+        for(Integer i : keys){
+            if(map.get(i) == max) sum += map.get(i);
+        }
+        return sum;
+    }
+}
+        // int max=0;
+        // for(int key:map.values()){
+        //     if(key>max){
+        //         max=key;
+        //     }
+        // }
+        // int sum = 0;
+        // for (int freq:map.values()) {
+        //     if (freq == max) {
+        //         sum += freq;
+        //     }
+        // }
+        // return sum;
+   

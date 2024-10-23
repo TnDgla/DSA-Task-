@@ -1,0 +1,17 @@
+class Solution {
+    public int numberOfSubarrays(int[] nums, int k) {
+        int n = nums.length;
+        int[]arr = new int[n + 1];
+       arr[0] = 1;
+        int odd = 0;
+        int count = 0;
+        for (int num : nums) {
+            if (num % 2 != 0)
+                odd++;
+            if (odd >= k)
+                count +=arr[odd - k];
+           arr[odd]++;
+        }
+        return count;
+    }
+}
