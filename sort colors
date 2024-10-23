@@ -1,0 +1,10 @@
+class Solution {
+    public void sortColors(int[] nums) {
+        Arrays.sort(nums);
+        f(nums);
+    }
+    public static int[] f(int nums[]){
+        return nums;
+    }
+    
+}
