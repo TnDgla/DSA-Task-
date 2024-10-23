@@ -1,0 +1,35 @@
+class Solution {
+    public int maxFrequencyElements(int[] nums) {
+        int n = nums.length;
+        int f[] = new int[n];
+        int visited[] = new int[n];
+        int total = 0;
+        for(int i=0;i<n;i++){
+            if(visited[i] == 1){
+                continue;
+            }
+
+            int count = 1;
+            for(int j=i+1;j<n;j++){
+                if(nums[i]==nums[j]){
+                    count++;
+                    visited[i] = 1;
+                }
+            }
+
+            f[i] = count;
+        }
+         
+         int max = 0;
+         for(int value : f){
+             max = Math.max(max,value);
+         }
+
+         for(int value : f){
+             if(value == max){
+                 total +=value;
+             }
+         }
+        return total;
+    }
+}
