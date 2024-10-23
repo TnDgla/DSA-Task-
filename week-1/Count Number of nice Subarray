@@ -1,0 +1,18 @@
+class Solution {
+    public int numberOfSubarrays(int[] nums, int k) {
+        int n = nums.length;
+        int[] c = new int[n + 1]; 
+        c[0] = 1; 
+        int ans = 0, t = 0; 
+        
+        for (int v : nums) {
+            t += v & 1; 
+            if (t - k >= 0) {
+                ans += c[t - k]; 
+            }
+            c[t]++; 
+        }
+        
+        return ans; 
+    }
+}
