@@ -1,0 +1,17 @@
+class Solution {
+    public int buyChoco(int[] prices, int money) {
+        int one = Math.min(prices[0],prices[1]);
+        int second = Math.max(prices[0],prices[1]);
+        for(int i=2;i<prices.length;i++){
+            if(prices[i]<one){
+                second = one;
+                one = prices[i];
+            }else if(prices[i]<second){
+                second=prices[i];
+            }
+        }
+        int sum = one+second;
+        if(money-sum>=0) return money-sum;
+        return money;
+    }
+}
