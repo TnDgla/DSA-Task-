@@ -352,3 +352,34 @@ class maximum_product_subarray{
         }
     }
 }
+class pivot_indx{
+    class Solution {
+        public int pivotIndex(int[] nums) {
+            int left_sum=0;
+            int right_sum=0;
+            int start=0;
+            int end=nums.length-1;
+            int totalsum=0;
+            for(int i=0;i<nums.length;i++){
+                totalsum+=nums[i];
+            }
+
+            for(int j=0;j<nums.length;j++){
+                if(j==0){
+                    left_sum=0;
+                    right_sum=totalsum-nums[j];
+                    if(left_sum==right_sum)
+                        return j;
+                }
+                else{
+                    left_sum+=nums[j-1];
+                    right_sum=totalsum-left_sum - nums[j];
+                    if(left_sum==right_sum)
+                        return j;}
+            }
+            return -1;
+
+        }
+
+    }
+}
