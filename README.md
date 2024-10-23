@@ -226,9 +226,11 @@ Subarrays are contiguous parts of an array, and different categories of subarray
 ## Math
 |  |
 | ------- |
+| [0029-divide-two-integers](https://github.com/Georgiandurgesh/DSA-Task-Durgesh-Bahadur-2215000645-/tree/master/0029-divide-two-integers) |
 | [0268-missing-number](https://github.com/Georgiandurgesh/DSA-Task-Durgesh-Bahadur-2215000645-/tree/master/0268-missing-number) |
 ## Bit Manipulation
 |  |
 | ------- |
+| [0029-divide-two-integers](https://github.com/Georgiandurgesh/DSA-Task-Durgesh-Bahadur-2215000645-/tree/master/0029-divide-two-integers) |
 | [0268-missing-number](https://github.com/Georgiandurgesh/DSA-Task-Durgesh-Bahadur-2215000645-/tree/master/0268-missing-number) |
 <!---LeetCode Topics End-->
