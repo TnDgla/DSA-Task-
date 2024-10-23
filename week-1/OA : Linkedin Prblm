@@ -1,0 +1,21 @@
+import java.util.*;
+public class MinSubstitutions {
+    public static List<Integer> minSubstitutions(List<String> words) {
+        List<Integer> result = new ArrayList<>();        
+        for (String word : words) {
+            int cnt=0;            
+            for (int i = 1; i < word.length(); i++) {
+                if (word.charAt(i) == word.charAt(i - 1)) {
+                    cnt++;
+                    i++; 
+                }
+            }
+            result.add(cnt);
+        }   
+        return result;
+    }
+    public static void main(String[] args) {
+        List<String> words = Arrays.asList("add", "boook", "break");
+        System.out.println(minSubstitutions(words)); 
+    }
+}
