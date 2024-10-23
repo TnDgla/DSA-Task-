@@ -1,0 +1,25 @@
+class Solution {
+    public List<String> commonChars(String[] words) {
+                int[] commonCount = new int[26];
+        Arrays.fill(commonCount, Integer.MAX_VALUE);
+        
+        for (String word : words) {
+            int[] currentCount = new int[26];
+            for (char c : word.toCharArray()) {
+                currentCount[c - 'a']++;
+            }
+            for (int i = 0; i < 26; i++) {
+                commonCount[i] = Math.min(commonCount[i], currentCount[i]);
+            }
+        }
+        List<String> result = new ArrayList<>();
+        for (int i = 0; i < 26; i++) {
+            for (int j = 0; j < commonCount[i]; j++) {
+                result.add(String.valueOf((char)(i + 'a')));
+            }
+        }
+        
+        return result;
+
+    }
+}
