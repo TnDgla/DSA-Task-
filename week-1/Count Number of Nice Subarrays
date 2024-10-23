@@ -1,0 +1,12 @@
+class Solution {
+    public int numberOfSubarrays(int[] nums, int k) {
+        int ans=print(nums,k)-print(nums,k-1);
+        return ans;
+    }
+    public static int print(int[] nums, int k){
+        int i=0;
+        int j=0;
+        int sum=0;
+        int cnt=0;
+…    }
+}
