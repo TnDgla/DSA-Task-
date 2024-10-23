@@ -1,0 +1,24 @@
+class Solution {
+    public int maxArea(int[] height) {
+        int left = 0;
+        int right = height.length-1;
+        int maxArea = 0;
+        while(left < right)
+        {
+            int ht = Math.min(height[left], height[right]);
+            int area = ht * (right - left);
+            if(area > maxArea)
+            {
+                maxArea = area;
+            }
+            while(left < right && height[left] <= ht)
+            {
+                left++;
+            }
+            while(left < right && height[right] <= ht){
+                right--;
+            }
+        }
+        return maxArea;
+    }
+}

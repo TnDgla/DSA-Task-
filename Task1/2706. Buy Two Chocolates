@@ -1,0 +1,21 @@
+class Solution {
+    public int buyChoco(int[] prices, int money) {
+        int n = prices.length;
+        int rem = money;
+        int min1 = Math.min(prices[0], prices[1]);
+        int min2 = Math.max(prices[0], prices[1]);
+        for(int i = 2; i < n; i++){
+            if(min1 >= prices[i]){
+                min2 = min1;
+                min1 = prices[i];
+            }
+            else if(min2 >= prices[i]){
+                min2 = prices[i];
+            }
+        }
+        rem = money - (min1 + min2);
+        if(rem < 0)
+        return money;
+        return rem;
+    }
+}
