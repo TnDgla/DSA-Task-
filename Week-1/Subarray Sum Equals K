@@ -1,0 +1,14 @@
+class Solution {
+    public int subarraySum(int[] arr, int k) {
+        Map<Integer,Integer> mpp = new HashMap<>();
+        int Sum = 0, count = 0;
+        mpp.put(0, 1);
+        for (int i = 0; i < arr.length; i++) {
+            Sum += arr[i];
+            int remove = Sum - k;
+            count +=mpp.getOrDefault(remove, 0);
+            mpp.put(Sum, mpp.getOrDefault(Sum, 0) + 1);
+        }
+        return count;
+    }
+}

@@ -1,0 +1,20 @@
+class Solution {
+    public int[][] divideArray(int[] nums, int k) {
+        int n = nums.length;
+        int m = n/3; // no. of groups
+        Arrays.sort(nums);
+        int counter = 0;
+        int[][] ans = new int[m][3];
+        for(int i=0;i<m;i++) {
+            int min = nums[counter];
+            for(int j=0;j<3;j++) {
+                if(nums[counter] - min > k) {
+                    // violated the condition
+                    return new int[][] {};
+                }
+                ans[i][j] = nums[counter++];
+            }
+        }
+        return ans;
+    }
+}
