@@ -1,0 +1,21 @@
+```public boolean checkSubarraySum(int[] nums, int k) {
+        if (nums.length < 2) {
+            return false;
+        }
+        for (int i=1; i<nums.length; i++) {
+            int startCheck = 0;
+            int total = 0;
+            for (int j=i; j>=0; j--) {
+                total += nums[j];
+                startCheck++;
+                if (startCheck >= 2) {
+                    if (k != 0 && total % k == 0) {
+                        return true;
+                    } else if (k==0 && total == 0) {
+                        return true;
+                    }
+                }
+            }
+        }
+        return false;
+    }
