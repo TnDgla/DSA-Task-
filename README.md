@@ -156,6 +156,7 @@ Subarrays are contiguous parts of an array, and different categories of subarray
 | ------- |
 | [0015-3sum](https://github.com/suyashtripathi333/DSA-Task/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/suyashtripathi333/DSA-Task/tree/master/0016-3sum-closest) |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/suyashtripathi333/DSA-Task/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0455-assign-cookies](https://github.com/suyashtripathi333/DSA-Task/tree/master/0455-assign-cookies) |
 | [0875-longest-mountain-in-array](https://github.com/suyashtripathi333/DSA-Task/tree/master/0875-longest-mountain-in-array) |
 | [2634-minimum-common-value](https://github.com/suyashtripathi333/DSA-Task/tree/master/2634-minimum-common-value) |
@@ -188,6 +189,7 @@ Subarrays are contiguous parts of an array, and different categories of subarray
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/suyashtripathi333/DSA-Task/tree/master/0020-valid-parentheses) |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/suyashtripathi333/DSA-Task/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [1044-find-common-characters](https://github.com/suyashtripathi333/DSA-Task/tree/master/1044-find-common-characters) |
 ## Binary Search
 |  |
@@ -212,4 +214,8 @@ Subarrays are contiguous parts of an array, and different categories of subarray
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/suyashtripathi333/DSA-Task/tree/master/0020-valid-parentheses) |
+## String Matching
+|  |
+| ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/suyashtripathi333/DSA-Task/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 <!---LeetCode Topics End-->
