@@ -1,0 +1,17 @@
+class Solution {
+    public int shipWithinDays(int[] weights, int days) {
+        int max=Integer.MIN_VALUE;
+        int sum=0;
+        for(int i=0;i<weights.length;i++){
+            max=Math.max(weights[i],max);
+            sum+=weights[i];
+        }
+        int low=max;
+        int high=sum;
+…            else{
+                load=load+weights[i];
+            }
+        }
+        return d;
+    }
+}
